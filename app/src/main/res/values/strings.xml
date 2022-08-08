@@ -1,0 +1,33 @@
+<resources>
+    //Headers
+    <string name="app_name">MyMovies</string>
+    <string name="title">Movie Title</string>
+    <string name="genre">Genre</string>
+    <string name="year">Year</string>
+    <string name="rate">Rating</string>
+    <string name="ID">Movie ID</string>
+
+    //Hints
+    <string name="t_hint">Enter movie title here</string>
+    <string name="g_hint">Enter genre here</string>
+    <string name="y_hint">Enter year of release here</string>
+    <string name="Id_hint">Enter movie ID</string>
+
+    //Buttons
+    <string name="btnInsert">INSERT</string>
+    <string name="btnShow">SHOW LIST</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnCancel">CANCEL</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="btnFilter">SHOW ALL PG-13 MOVIES</string>
+
+    //Array
+    <string-array name="ratings">
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+</resources>
