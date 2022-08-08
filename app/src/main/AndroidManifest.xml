@@ -14,6 +14,12 @@
         android:theme="@style/Theme.MyMovies"
         tools:targetApi="31">
         <activity
+            android:name=".MovieList"
+            android:exported="false" />
+        <activity
+            android:name=".ModifyMovie"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

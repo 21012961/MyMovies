@@ -31,13 +31,16 @@ public class CustomAdapter extends ArrayAdapter {
 
         TextView tvTitle = rowView.findViewById(R.id.textViewTitle);
         TextView tvGenre = rowView.findViewById(R.id.textViewGenre);
-        TextView tvYear = rowView.findViewById(R.id.tvYear);
+        TextView tvYear = rowView.findViewById(R.id.textViewYear);
         ImageView ivRating = rowView.findViewById(R.id.imageView);
 
         Movie currentMovie = movieList.get(position);
         tvTitle.setText(currentMovie.getTitle());
         tvGenre.setText(currentMovie.getGenre());
-        tvYear.setText(currentMovie.getYear());
+
+        String year = (String.valueOf(currentMovie.getYear()));
+
+        tvYear.setText(year);
 
         if (currentMovie.getRating().equals("G")) {
             ivRating.setImageResource(R.drawable.rating_g);
